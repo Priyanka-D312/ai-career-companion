@@ -1,0 +1,10 @@
+[project]
+name = "backend"
+version = "1.0.0"
+description = "RAG Internship Matcher API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.1",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+]
